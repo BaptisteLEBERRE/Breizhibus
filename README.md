@@ -12,7 +12,7 @@ Breizhibus connecte à une base de données MySQL de lignes de bus. Il crée une
 
 ## Principales difficultés
 
--Prise en main du module tkinter, avec l'implantation de nombreux éléments. Chaque bouton demande sa propre insertion et un renvoi à une fonction à définir. L'ensemble doit être visible dans le code.
+-Prise en main du module tkinter, avec l'implantation de nombreux éléments. Chaque bouton demande sa propre insertion et un renvoi à une fonction à définir. L'ensemble doit être clairement visible dans le code malgré la longueur engendrée.
 
 -La suppression des éléments d'un cadre lors d'une nouvelle requette par bouton. Mes premiers essais ne faisaient que surimposer les nouveaux résultats sur les ancients. Résolu avec des boucles du style suivant (merci à Pereg pour l'info) :
 
