@@ -16,9 +16,9 @@ Breizhibus connecte à une base de données MySQL de lignes de bus. Il crée une
 
 -La suppression des éléments d'un cadre lors d'une nouvelle requette par bouton. Mes premiers essais ne faisaient que surimposer les nouveaux résultats sur les ancients. Résolu avec des boucles du style suivant (merci à Pereg pour l'info) :
 
-  ``for widget in cadre_insertion.winfo_children():
+  ``for widget in cadre_insertion.winfo_children():``
   
-    widget.grid_forget()``
+    ``widget.grid_forget()``
 
 -Les subtilités des requettes par connecteur MySQL, qui demandent souvent des syntaxes précises comme :
 
