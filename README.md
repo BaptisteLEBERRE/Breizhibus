@@ -18,7 +18,7 @@ Breizhibus connecte à une base de données MySQL de lignes de bus. Il crée une
 
   ``for widget in cadre_insertion.winfo_children():``
   
-    ``widget.grid_forget()``
+    widget.grid_forget()
 
 -Les subtilités des requettes par connecteur MySQL, qui demandent souvent des syntaxes précises comme :
 
